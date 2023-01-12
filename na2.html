@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="./na.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <nav>
+        <div class="icons">
+            <ol class="classol">
+                <li><a href="./index.html" class="id">HOME</a></li>
+                <li><a href="./na1.html" class="id">ABOUT</a> </li>
+                <li><a href="./na2.html" class="id">SKILLS</a> </li>
+                <li><a href="./na4.html" class="id"> CONTACT</a></li>
+                <i class="fa-solid fa-xmark " onclick="closemenu()"></i>
+            </ol>
+            <i class="fa-solid fa-bars " onclick="openmenu()"></i>
+        </div>
+        <div>
+            <h1>port <b style="color: white;">folio</b> </h1>
+        </div>
+
+          
+    </nav>
+    <h2 id="myskills">MY SKILLS</h2>
+    <div class="table">
+        <ul class="tableul">
+            <li>SQL  85% <div id="bar1"></div> </li>
+            <li>HTML   95% <div id="bar2"></div></li>
+            <li>CSS   87% <div id="bar3"></div></li>
+            <li>JAVASCRIPT 80% <div id="bar4"></div></li>
+            <li>JAVA 82% <div id="bar5"></div></li>
+        </ul>
+    </div>
+      
+    <script>
+        var a = document.querySelector(".classol")
+        function closemenu(){
+            a.style.left = "-200px";
+
+        }
+        function openmenu(){
+            a.style.left = "0";
+        }
+    
+    </script>
+   
+</body>
+</html>
