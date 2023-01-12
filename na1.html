@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="./na.css"> 
+     <script src="https://kit.fontawesome.com/62647b7a04.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="icons">
+            <ol class="classol">
+                <li><a href="./index.html" class="id">HOME</a></li>
+                <li><a href="./na1.html" class="id">ABOUT</a> </li>
+                <li><a href="./na2.html" class="id">SKILLS</a> </li>
+                <li><a href="./na4.html" class="id"> CONTACT</a></li>
+                <i class="fa-solid fa-xmark " onclick="closemenu()"></i>
+            </ol>
+            <i class="fa-solid fa-bars " onclick="openmenu()"></i>
+        </div>
+        <div>
+            <h1>port <b style="color: white;">folio</b> </h1>
+        </div>
+
+
+
+    </nav>
+    <div class="about">
+    <div>
+        <img src="./WhatsApp Image 2023-01-03 at 5.59.52 PM.jpeg" alt=""  id="img1">
+    </div>
+    
+   <div class="intro" >
+    <h2>ABOUT ME</h2>
+    <p>My name is <b style="color: cadetblue;"> M.SRIKANTH </b> and i am Graduated student from kommuri pratap reddy institute of technology 
+        specialisation in
+       computer science engineering. 
+       My hobbies are playing kabaddi,learning new technical skills.</p>
+       <div class="btn2">
+        <button id="btn1" ><a href="./MARRIPALLY SRIKANTH CV.pdf"  download="">DONWLOAD CV</a></button> 
+       </div>
+        
+       
+        
+         
+   </div>
+   
+</div>
+<script>
+    var a = document.querySelector(".classol")
+    function closemenu(){
+        a.style.left = "-200px";
+
+    }
+    function openmenu(){
+        a.style.left = "0";
+    }
+
+</script>
+</body>
+
+</html>
